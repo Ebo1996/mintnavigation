@@ -7,7 +7,8 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "seed:dept-heads": "node src/utils/seedDepartmentHeads.js",
-    "seed:sector-managers": "node src/utils/seedSectorManagers.js"
+    "seed:sector-managers": "node src/utils/seedSectorManagers.js",
+    "backup": "node src/utils/backupDatabase.js"
   },
   "keywords": [],
   "author": "",
