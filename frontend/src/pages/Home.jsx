@@ -262,14 +262,16 @@ const Home = () => {
                   </div>
                   {announcements.map((a) => {
                     const s = priorityStyle(a.priority);
+                    const title = typeof a.title === "object" ? (a.title[language] || a.title.en) : a.title;
+                    const message = typeof a.message === "object" ? (a.message[language] || a.message.en) : a.message;
                     return (
                       <div key={a._id}
                         className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold flex-shrink-0"
                         style={{ background: s.bg, color: s.color, border: `1.5px solid ${s.border}` }}>
                         <span>{typeIcon(a.type)}</span>
-                        <span className="font-bold">{a.title}</span>
+                        <span className="font-bold">{title}</span>
                         <span className="hidden sm:inline" style={{ color: "#7A5800" }}>·</span>
-                        <span className="hidden sm:inline truncate max-w-xs" style={{ color: "#7A5800" }}>{a.message}</span>
+                        <span className="hidden sm:inline truncate max-w-xs" style={{ color: "#7A5800" }}>{message}</span>
                       </div>
                     );
                   })}
