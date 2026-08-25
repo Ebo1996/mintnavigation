@@ -220,7 +220,7 @@ Development: http://localhost:5000/api
 
 ## 📞 Contact
 
-**Developer:** Firaol Tesfaye Mideksa
+**Developer:** Ebisa Berhanu
 **University:** Jimma University Institute of Technology
 **Department:** Software Engineering
 
@@ -228,6 +228,14 @@ Development: http://localhost:5000/api
 |------|-----|
 | 🌐 Live Demo | [mintnavigation.netlify.app](https://mintnavigation.netlify.app) |
 | 📁 Repository | [github.com/Ebo1996/mintnavigation](https://github.com/Ebo1996/mintnavigation) |
+
+---
+
+## 📝 License
+
+MIT License © 2026 [Ebo1996](https://github.com/Ebo1996)
+
+See [LICENSE](LICENSE) for more information.
 
 ---
 
