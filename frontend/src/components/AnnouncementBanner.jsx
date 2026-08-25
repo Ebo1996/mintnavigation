@@ -131,10 +131,14 @@ const AnnouncementBanner = () => {
                     className="font-extrabold text-xs uppercase tracking-widest"
                     style={{ color: titleColor, letterSpacing: "0.12em" }}
                   >
-                    {currentAnnouncement.title}
+                    {typeof currentAnnouncement.title === "object" 
+                      ? (currentAnnouncement.title[language] || currentAnnouncement.title.en) 
+                      : currentAnnouncement.title}
                   </span>
                   <span className="text-sm truncate" style={{ color: msgColor }}>
-                    {currentAnnouncement.message}
+                    {typeof currentAnnouncement.message === "object" 
+                      ? (currentAnnouncement.message[language] || currentAnnouncement.message.en) 
+                      : currentAnnouncement.message}
                   </span>
                 </div>
               </div>
