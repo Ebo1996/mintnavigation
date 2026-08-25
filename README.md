@@ -222,11 +222,11 @@ Development: http://localhost:5000/api
 
 **Developers:**
 
-| Name | Role |
-|------|------|
-| Ebisa Berhanu | Full-Stack Developer |
-| Anam Tesfa | Full-Stack Developer |
-| Natnael Kefyalew | Full-Stack Developer |
+| Name | GitHub |
+|------|--------|
+| Ebisa Berhanu | [Ebo1996](https://github.com/Ebo1996) |
+| Anam Tesfa | [anotesfa](https://github.com/anotesfa) |
+| Natnael Kefyalew | [Nati121442](https://github.com/Nati121442) |
 
 **University:** Jimma University Institute of Technology
 **Department:** Software Engineering
@@ -240,7 +240,7 @@ Development: http://localhost:5000/api
 
 ## 📝 License
 
-MIT License © 2026 Ebisa Berhanu, Anam Tesfa, Natnael Kefyalew — [Ebo1996](https://github.com/Ebo1996)
+MIT License © 2026 [Ebisa Berhanu](https://github.com/Ebo1996), [Anam Tesfa](https://github.com/anotesfa), [Natnael Kefyalew](https://github.com/Nati121442)
 
 See [LICENSE](LICENSE) for more information.
 
