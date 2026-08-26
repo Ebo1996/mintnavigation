@@ -14,7 +14,6 @@ import {
   FiMessageCircle, FiArrowRight,
 } from "react-icons/fi";
 
-
 const C = {
   bg:    "#F7F9FC",
   navy:  "#086976",
