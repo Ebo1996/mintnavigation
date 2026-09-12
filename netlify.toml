@@ -5,6 +5,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  VITE_API_URL = "https://api-mint-navigation.onrender.com/api"
 
 [[redirects]]
   from   = "/*"
