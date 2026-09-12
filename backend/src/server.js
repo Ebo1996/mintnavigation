@@ -68,6 +68,7 @@ app.use(
       "https://mintnavigation1.netlify.app",
       "https://mintnavigation.netlify.app",
       "https://mint-navigation-u0hc.onrender.com",
+      "https://minthiwigitien.netlify.app", // Production frontend
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
